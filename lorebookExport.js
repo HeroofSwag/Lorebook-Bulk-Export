@@ -13,8 +13,6 @@
 // @run-at       document-idle
 // @grant        none
 // @license      MIT
-// @downloadURL  https://update.greasyfork.org/scripts/600422/Moescape%20Lorebook%20Bulk%20Export.user.js
-// @updateURL    https://update.greasyfork.org/scripts/600422/Moescape%20Lorebook%20Bulk%20Export.meta.js
 // ==/UserScript==
 
 (() => {
