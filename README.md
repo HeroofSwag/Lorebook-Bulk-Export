@@ -1,9 +1,10 @@
-<p><strong>Moescape Lorebook Backup + JSON Export</strong></p>
+<p><strong>Lorebook Backup + JSON Export</strong></p>
 <hr />
 <p><em>SEE TAVERN CHAT DOWNLOADER BY Holly & Dagyr HERE</em>: <a href="https://greasyfork.org/en/scripts/566378-tavern-chat-downloader">https://greasyfork.org/en/scripts/566378-tavern-chat-downloader</a></p>
 <hr />
 <p>Download Lorebooks as CSV, JSON, JSONL (SillyTavern/OpenAI compatible), TXT, or XML</p>
 <p><strong>"Import JSON"</strong> download option formats entries for reimport in Character.ai (confirmed to work with Moescape.ai)</p>
+<p><strong>"SillyTavern JSON"</strong> download option formats entries for reimport in SillyTavern (uses scan depth/recursion if available or ST defaults)</p>
 <p><h6><i>Hint: Use Export then re-import as a personal Lorebook to add your own OCs or AU entries, edit entries, or redact entries instead of remembering to turn them off in chat settings.</i></h6></p>
 <hr />
 <p><strong>***DOES NOT AUTODOWNLOAD COVER IMAGE***</strong></p>
@@ -13,6 +14,7 @@
 <p>-Loads all entries and Lorebook information</p>
 <p>-Scans entries and compiles the data</p>
 <p>-Module at bottom-right displays ongoing progress and counts as well as warnings</p>
+<p>-Current site list: <strong>Moescape.ai, Yodayo.com, SwerveAI.app</strong></p>
 <hr />
 <p><strong>HOW TO USE</strong></p>
 <ol>
@@ -20,7 +22,7 @@
 <p>Install script using your preferred userscript manager (Tampermonkey, Greasemonkey, etc.)</p>
 </li>
 <li>
-<p>Refresh any open tabs with a <u><a href="https://moescape.ai/tavern/lorebooks">https://moescape.ai/tavern/lorebooks/*</a></u> URL.</p>
+<p>Refresh any open tabs with a <u><a href="https://moescape.ai/tavern/lorebooks">https://moescape.ai/tavern/lorebooks/*</a></u>, <u><a href="https://yodayo.com/tavern/lorebooks">https://yodayo.com/tavern/lorebooks/*</a></u>, or <u><a href="https://swerveai.app/worldbooks">https://swerveai.app/worldbooks/*</a></u> URL.</p>
 <ol>
 <li>
 <p>Browser console can be minimized or userscript disabled to hide.</p>
@@ -28,7 +30,7 @@
 </ol>
 </li>
 <li>
-<p>Look for the Moescape Lorebook Exporter console in the lower-right corner.</p>
+<p>Look for the Multisite Lorebook Exporter console in the lower-right corner.</p>
 </li>
 <li>
 <p>Select an entry and click Preview selection.</p>
@@ -42,10 +44,10 @@
 <p>Click Scan all entries, then download your preferred files.</p>
 <ol>
 <li>
-<p>DO NOT navigate away from the page while the scan is running. You can leave it running in the background as long as the tab is open and active <em>somewhere</em>.</p>
+<p>DO NOT navigate away from the page while the scan is running. You can leave it running in the background as long as the tab is open and active <em>somewhere</em>, but it works faster if the page has focus.</p>
 </li>
 <li>
-<p>Scan takes approx. 1s per 1-2 entries. Large Lorebooks may take several minutes to compile. If the module says it's still running, leave it be.</p>
+<p>Scan takes approx. 1s per 1-2 entries for Moescape and Yodayo. Large Lorebooks may take several minutes to compile. If the module says it's still running, leave it be.</p>
 </li>
 <li>
 <p>Data will remain in cache until the page is refreshed; user may download multiple filetypes without rerunning.</p>
@@ -58,7 +60,7 @@
 </ol>
 <hr />
 <p><strong>HELP</strong></p>
-<p><em>Q. LOREBOOK NAME DOESN&rsquo;T LOAD</em></p>
+<p><em>Q. CONSOLE OR LOREBOOK NAME DOESN&rsquo;T LOAD</em></p>
 <p>&nbsp;&nbsp;&nbsp;A. Refresh page or select an entry and click 'Preview selection'. If you've made edits to the source code, remove and install script.</p>
 <p><em>Q. I WANT IT TO DO XYZ THING NOT SPECIFIED ABOVE</em></p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A. Send me a message. No guarantees I will respond to or fulfill the request, but I can be flexible.</p>
@@ -75,5 +77,4 @@
 <p><strong>Runtime: Read entries</strong></p><img width="1920" height="1032" alt="Lorebook3" src="https://github.com/user-attachments/assets/15b016de-1298-4e86-84c1-b95eb397e017" />
 <p><strong>Runtime: Compile entries</strong></p><img width="1920" height="1032" alt="Lorebook4" src="https://github.com/user-attachments/assets/71be2b1d-1372-470f-91dd-f0672efca182" />
 <p><strong>Export options (pre-"Import JSON")</strong></p><img width="1920" height="1032" alt="Lorebook1" src="https://github.com/user-attachments/assets/b6c886eb-f7d1-4125-8dda-23902d16ac85" />
-
 
