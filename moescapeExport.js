@@ -7,7 +7,7 @@
 // @match        https://moescape.ai/tavern/lorebooks/*
 // @match        https://www.moescape.ai/tavern/lorebooks/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=moescape.ai
-// @run-at       document-idle
+// @run-at       document-start
 // @grant        none
 // @license      MIT
 // @downloadURL https://update.greasyfork.org/scripts/600422/Moescape%20Lorebook%20Bulk%20Export.user.js
