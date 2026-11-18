@@ -10,7 +10,7 @@
 // @match        https://www.yodayo.com/tavern/lorebooks/*
 // @match        https://swerveai.app/worldbooks/*
 // @match        https://www.swerveai.app/worldbooks/*
-// @run-at       document-idle
+// @run-at       document-end
 // @grant        none
 // @license      MIT
 // ==/UserScript==
